@@ -1,0 +1,12 @@
+Title : eHealth
+
+tags: eHealth, remote health, 
+
+technology:Arduino, Android, Java, Swing, Cloud Storage, Remote Sensing, Fuzzy Interface, HTML5, Wireless Networking.
+
+Short desc: Remote Health monitoring system for patients in rural place.
+
+Description: eHealth is a remote health monitoring system that is designed to monitor patients
+ (located in remote rural places) using health sensors connected wirelessly to a smartphone using arduino.
+The sensed data is used to predict the patient physiological condition using fuzzy analysis and alert emergency services if necessary. The data is
+ also stored in cloud data-store services for future references.

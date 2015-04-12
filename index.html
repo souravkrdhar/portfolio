@@ -1,0 +1,62 @@
+<html ng-app="portfolio" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Sourav Dhar</title>
+
+        <script type="text/javascript" src="Scripts/Lib/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="Scripts/Lib/angular.js"></script>
+        <script type="text/javascript" src="Scripts/Lib/angular-route.js"></script>
+
+        <script type="text/javascript" src="Scripts/app.js"></script>
+
+        <script type="text/javascript" src="Data/workDetails.js"></script>
+        <!-- font awesome links -->
+            <link type="text/css" rel="stylesheet" href="Styles/font-awesome/css/font-awesome.min.css"/>
+        <!--end of font awesome links -->
+        <!-- google fonts links -->
+
+        <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <!-- end of google fonts links -->
+
+
+        <!-- The css links -->
+        <link type="text/css" href="Styles/main.css" rel="stylesheet" />
+        <!-- End of css links -->
+    </head>
+    <body >
+        <div id="hoarding">
+            <div id="left" >
+                <div id="greet">
+                    <span class="greetingText">Hello I'm</span>
+                </div>
+                <div id="name">
+                    <span class="nameText">Sourav Kr Dhar</span>
+                </div>
+                <div id="tag">
+                    <span class="tagText">Programmer | Web Designer | Research Author | Tech Enthusiast</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" >
+            <div class="writeupText">
+                I am a programmer, web designer and a tech enthusiast. I enjoy exploring new technologies. If you have landed here, spend some more time exploring some of my works.
+            </div>
+            <div class="threeDots">***</div>
+
+
+            <div id="edu"  ><ng-view></ng-view></div>
+
+
+        </div>
+
+        <footer class="container footer">
+            <span>Sourav Kumar Dhar © 2015 </span>
+        </footer>
+    </body>
+</html>

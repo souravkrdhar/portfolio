@@ -1,0 +1,12 @@
+<div id="workDiv" class="workContainer">
+    <div class="workTitle">{{theWork.title}}</div>
+    <div class="workCategory"><b>Category :</b> {{theWork.category}}</div>
+    <div class="workPlatform"><b>Platform :</b> {{theWork.platform}}</div>
+    <div class="workTecnology"><b>Technology :</b> {{theWork.technology}}</div>
+    <div class="workDescription"><b>Description :</b> {{theWork.description}}</div>
+    <div class="workScreenshots">::Screenshots::</div>
+    <div class="imageContainer" ng-repeat="image in theWork.images">
+        <div class="workImageIndex">{{$index + 1}}</div>
+        <img class="workImage" ng-src="Resources/{{theWork.title}}/{{image}}">
+    </div>
+</div>
