@@ -1,7 +1,5 @@
 var apps = angular.module('portfolio',['ngRoute']);
 
-var theWork={};
-
 apps.config(['$routeProvider','$locationProvider',
     function($routeProvider){
         $routeProvider.
@@ -25,7 +23,7 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
     function($scope,$rootScope,$location){
         $scope.workdetails = workdetails;
         $scope.viewWorkDetail = function(index){
-            clickedOne = index;
+            $rootScope.clickedOne = index;
             $location.path('/viewWorkDetail');
         };
     }
@@ -33,8 +31,13 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
 
 apps.controller('workViewControl',['$scope','$rootScope',
     function($scope,$rootScope){
-        $scope.theWork = workdetails[clickedOne];
-        //alert('gege'+$scope.theWork+clickedOne);
+        $scope.theWork = workdetails[$rootScope.clickedOne];
+        if($scope.theWork !== undefined){
+            sessionStorage.work = JSON.stringify($scope.theWork );
+        }
+        else{
+            $scope.theWork = JSON.parse(sessionStorage.work);
+        }
     }
 ]);
 
