@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7803b8e2-e794-4696-8d50-e898dfa34282" name="Default" comment="Portfolio Page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partialPages/aboutMe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/SouravDhar/Logo.png" afterPath="$PROJECT_DIR$/Resources/SouravDhar/Logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Emagine/logo.png" afterPath="$PROJECT_DIR$/Resources/Emagine/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/eHealth/logo.png" afterPath="$PROJECT_DIR$/Resources/eHealth/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/eHealth/logoMob.png" afterPath="$PROJECT_DIR$/Resources/eHealth/logoMob.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/app.js" afterPath="$PROJECT_DIR$/Scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/main.css" afterPath="$PROJECT_DIR$/Styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/workDetails.js" afterPath="$PROJECT_DIR$/Data/workDetails.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolioFinale.iws" />
@@ -77,8 +69,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.330645">
-              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -97,8 +89,8 @@
       <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partialPages/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -119,12 +111,12 @@
       <list>
         <option value="$PROJECT_DIR$/Styles/app.scss" />
         <option value="$PROJECT_DIR$/Styles/main1.css" />
-        <option value="$PROJECT_DIR$/partialPages/mainPage.html" />
         <option value="$PROJECT_DIR$/partialPages/workDetail.html" />
         <option value="$PROJECT_DIR$/partialPages/aboutMe.html" />
         <option value="$PROJECT_DIR$/Scripts/app.js" />
         <option value="$PROJECT_DIR$/Data/workDetails.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partialPages/mainPage.html" />
         <option value="$PROJECT_DIR$/Styles/main.css" />
       </list>
     </option>
@@ -267,7 +259,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428942626453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Portfolio Page">
+      <created>1428948708195</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1428948708195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -636,19 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partialPages/mainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -675,10 +660,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partialPages/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.330645">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding />
         </state>
       </provider>
