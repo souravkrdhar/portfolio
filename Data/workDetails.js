@@ -2,8 +2,8 @@ var workdetails = [
     {
         title:"SouravDhar",
         logo:'logo.png',
-        frontImage:'1.jpg',
-        backImage:'1.jpg',
+        frontImage:'1F.jpg',
+        backImage:'1B.jpg',
         category:"Portfolio",
         platform:"Web & Mobile",
         desc:'My Portfolio page',
@@ -14,8 +14,8 @@ var workdetails = [
     {
         title:"Emagine",
         logo:'logo.png',
-        frontImage:'1.jpg',
-        backImage:'2.jpg',
+        frontImage:'1F.jpg',
+        backImage:'2B.jpg',
         category:"Web Album",
         platform:"Web Application",
         desc:'Image Album for storing sharing editing viewing images',
@@ -26,8 +26,8 @@ var workdetails = [
     {
         title:"eHealth",
         logo:'logo.png',
-        frontImage:'1.jpg',
-        backImage:'2.jpg',
+        frontImage:'1F.jpg',
+        backImage:'2B.jpg',
         category:"Health Monitoring",
         platform:"Cloud, Web & IoT",
         desc:'Remote Health monitoring system for patients in rural place',
@@ -35,4 +35,4 @@ var workdetails = [
         technology:"Arduino, Wireless Sensing, Java, HTML5, Android, Javascript, Cloud Datastore",
         images:['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.jpg']
     }
-]
+];

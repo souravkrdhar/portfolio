@@ -12,6 +12,11 @@ apps.config(['$routeProvider','$locationProvider',
             {
                 templateUrl: 'partialPages/workDetail.html',
                 controller: 'workViewControl'
+            }).
+            when('/viewAboutMe',
+            {
+                templateUrl: 'partialPages/aboutMe.html',
+                controller: 'AboutMeControl'
             })
             .otherwise(
             {
@@ -26,6 +31,12 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
             $rootScope.clickedOne = index;
             $location.path('/viewWorkDetail');
         };
+        $rootScope.viewAboutMe = function(){
+            $location.path('/viewAboutMe');
+        };
+        $rootScope.viewHome = function(){
+            $location.path('/Home');
+        };
     }
 ]);
 
@@ -38,6 +49,11 @@ apps.controller('workViewControl',['$scope','$rootScope',
         else{
             $scope.theWork = JSON.parse(sessionStorage.work);
         }
+    }
+]);
+
+apps.controller('AboutMeControl',['$scope','$rootScope',
+    function($scope,$rootScope){
     }
 ]);
 

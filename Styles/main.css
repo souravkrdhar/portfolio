@@ -1,5 +1,5 @@
 *{
-    font-family:Gruppo;
+    font-family: Gruppo, sans-serif ;
 }
 body{
     padding: 0;
@@ -12,14 +12,38 @@ body{
     width:900px;
     margin-left: auto;
     margin-right: auto;
-    /* background-image: url("../Images/FFFFFF-0.6.png"); */
     background-repeat: repeat;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    box-shadow: #555;
     padding-top:3vh;
     background-color: #FCFCFC;
-    box-shadow: 0px 6px 10px #ccc;
+    box-shadow: 0 6px 10px #ccc;
+}
+#header{
+    height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    float:left;
+    margin-top: 6px;
+    padding: 0 18px;
+}
+#menu{
+    float:right;
+}
+#menu ul{
+    text-decoration: none;
+    margin-top: 8px;
+}
+#menu li{
+    float:left;
+    padding: 1px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#menu li:hover{
+    text-decoration: underline;
 }
 #hoarding{
     top:0;
@@ -28,19 +52,19 @@ body{
     min-width:100%;
     background-image: url("../Images/hoarding1.jpg");
     background-size: 100% 100%;
-    min-height:40vw;
+    min-height: 37vw;
     border-top: 3px solid #29344A;
     border-bottom: 3px solid #8E9397;
 }
 .greetingText{
     color:#232F46;
-    font-family:Pacifico;
+    font-family:Pacifico, sans-serif;
     font-size: 8vw;
     line-height:100%;
 }
 .nameText{
     color:#232F46;
-    font-family:Playball;
+    font-family:Playball, sans-serif;
     font-size:5vw;
 }
 .tagText{
@@ -80,8 +104,6 @@ body{
 
     -webkit-perspective: 6000px;
     -moz-perspective: 6000px ;
-    -ms-perspective: 6000px;
-    -o-perspective:6000px;
     perspective:6000px;
 
     -webkit-transform: perspective(6000px);
@@ -93,14 +115,10 @@ body{
 .workCard{
 
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
     -webkit-transition: 1s;
     -moz-transition: 1s;
-    -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
 
@@ -120,8 +138,6 @@ body{
 
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
     backface-visibility: hidden;
 
     -webkit-transform: translateZ(0px);
@@ -138,13 +154,11 @@ body{
 
     -webkit-transition: 1s;
     -moz-transition: 1s;
-    -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
 }
 .cardBGFrnt{
     background-color: rgb(251, 251, 251);
-    background-color: #FFF;
     z-index: 5;
 
     -webkit-transform: rotateY(0deg);
@@ -175,8 +189,8 @@ body{
     height: 195px;
 }
 .logo{
-    width: 99%;
-    height:50px;
+    width: 100%;
+    height: 45px;
     padding:5px;
     box-sizing: border-box;
 }
@@ -193,7 +207,7 @@ body{
     background-image: url("../Images/FFFFFF-0.8.png");
     background-repeat: repeat;
     height: 35px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .cardCate{
     color:#232F46;
@@ -204,7 +218,7 @@ body{
     color: #000;
     font-size: 17px;
     font-weight: bold;
-    text-shadow: 0px 0px 5px #FFFFFF;
+    text-shadow: 0 0 5px #FFFFFF;
     background-image: url("../Images/FFFFFF-0.6.png");
     background-repeat: repeat;
     height: 28px;
@@ -215,7 +229,6 @@ body{
     color: #000;
     font-size: 14px;
     font-weight: bold;
-    background-image: url("../Images/FFFFFF-0.8.png");
     background-image: url("../Images/seamless.jpg");
     background-repeat: repeat;
     text-align: left;
@@ -229,7 +242,6 @@ body{
     color: #000;
     font-size: 14px;
     font-weight: bold;
-    background-image: url("../Images/FFFFFF-0.8.png");
     background-image: url("../Images/seamless.jpg");
     background-repeat: repeat;
     text-align: left;
@@ -346,13 +358,12 @@ body{
     border-radius:20px;
 
     box-shadow: 0 0 12px #D5D5D5;
-    margin: 15 auto;
+    margin: 15px auto;
     line-height: 150%;
     font-weight: bold;
 }
 .imageContainer{
     text-align: center;
-
 }
 @media (max-width: 900px)
 {
