@@ -42,12 +42,12 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
 
 apps.controller('workViewControl',['$scope','$rootScope',
     function($scope,$rootScope){
-        $scope.theWork = workdetails[$rootScope.clickedOne];
-        if($scope.theWork !== undefined){
-            sessionStorage.work = JSON.stringify($scope.theWork );
+        if($rootScope.clickedOne !== undefined){
+            $scope.theWork = workdetails[$rootScope.clickedOne];
+            sessionStorage.clickedOne = JSON.stringify($rootScope.clickedOne );
         }
         else{
-            $scope.theWork = JSON.parse(sessionStorage.work);
+            $scope.theWork = workdetails[JSON.parse(sessionStorage.clickedOne || 0)];
         }
     }
 ]);
