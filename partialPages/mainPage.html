@@ -1,0 +1,32 @@
+<div>
+    <div class="perspect" ng-repeat="work in workdetails" >
+        <div class="workCard">
+            <div class="cardBGFrnt">
+                <div class="frntContainer ">
+                    <div class="frontImage bgImageCover" style="background-image: url('Resources/{{work.title}}/{{work.frontImage}}');"></div>
+                    <div class="logo">
+                        <img ng-src="Resources/{{work.title}}/{{work.logo}}" height="40" width="120">
+                    </div>
+                    <div class="cardTitle">{{work.title}}</div>
+                    <div class="cardCate">{{work.category}}</div>
+                </div>
+            </div>
+            <div class="cardBGBack" >
+                <div class="backBG" style="background-image: url('Resources/{{work.title}}/{{work.backImage}}');">
+                    <div class="cardTitleBack">{{work.title}}</div>
+                    <div class="quickViewContainer" ng-click="viewWorkDetail($index);">
+                        <div class="quikView">
+                            <div class="eye"><i class="icon-eye-open"></i></div>
+                            <div class="quickText"> Quick View</div>
+                        </div>
+                    </div>
+
+                    <div class="cardPlatform">{{work.platform}}</div>
+                    <div class="cardTech"><b style="text-decoration: underline;">Tech:</b> {{work.technology}}</div>
+                    <div class="cardDesc"><b style="text-decoration: underline;">Desc:</b> {{work.desc}}</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

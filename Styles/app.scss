@@ -1,0 +1,11 @@
+$color: #DEB;
+$widthh: 960px;
+@mixin sov ($vari){
+  height:$vari;
+  width:$vari*2;
+}
+
+body{
+  background-color: $color;
+  @include sov(480px);
+}

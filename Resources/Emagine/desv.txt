@@ -1,0 +1,10 @@
+title: Emagine
+
+tag: Image, Album, Editor
+
+Technology : ASP.NET, MSSQL, Javascript, HTML5, Social Network Integration.
+
+desc: Image Album for storing sharing editing viewing images.
+
+description: Emage is a full stack web based image album. it can be used for storing images, editing them sharing them
+ with friends and dear ones. It is also integrated with facebook for logging in and accessing facebook images of users.
