@@ -8,6 +8,11 @@ body{
     -webkit-transform:translate3d(0,0,0);
     -webkit-font-smoothing: antialiased;
 }
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
 .container{
     width:900px;
     margin-left: auto;
@@ -377,15 +382,17 @@ body{
     box-sizing: border-box;
 }
 .skillTag{
-    height:30px;
+    /* height:30px; */
     margin: 5px 10px;
     box-shadow: 0 0 5px #DDD;
     font-size: x-large;
     display: inline-block;
-    padding: 3px 10px;
+    padding: 5px 10px;
     border: 1px solid #DDD;
 }
-
+.heading{
+    text-align: center;
+}
 @media (max-width: 900px)
 {
     .container{
