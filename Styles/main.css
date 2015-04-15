@@ -368,6 +368,17 @@ body{
 .imageContainer{
     text-align: center;
 }
+
+/*About me Css*/
+.segment{
+    width:100%;
+}
+.skillTag{
+    height:30px;
+    margin:3px 10px;
+    box-shadow: 0 0 5px #DDD;
+}
+
 @media (max-width: 900px)
 {
     .container{

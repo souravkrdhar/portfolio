@@ -53,7 +53,8 @@ apps.controller('workViewControl',['$scope','$rootScope',
 ]);
 
 apps.controller('AboutMeControl',['$scope','$rootScope',
-    function($scope,$rootScope){
+    function($scope){
+        $scope.me = me;
     }
 ]);
 
