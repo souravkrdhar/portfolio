@@ -48,9 +48,10 @@ h3{
     perspective: 1000px;
 
 
-    width: 100%;
+    /* width: 100%; */
     text-align: right;
-    margin-top: -40px;
+    /* margin-top: -40px; */
+    display: inline;
     /* background-color: #FEFEFE; */
     overflow: hidden;
     z-index: 2;
