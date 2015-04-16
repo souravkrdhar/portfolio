@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html ng-app="portfolio" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
@@ -16,11 +17,7 @@
         <!--end of font awesome links -->
         <!-- google fonts links -->
 
-        <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
         <!-- end of google fonts links -->
 
@@ -30,15 +27,18 @@
         <!-- End of css links -->
     </head>
     <body >
-        <header id="header" class="container">
-            <div id="logo"><img src="Images/Logo.png" Style="height:30px; width:60px;"/> </div>
+        <div id="header" class="container">
+            <div id="logo" ng-click="viewAboutMe();"><img src="Images/Logo.png" Style="height:30px; width:60px;"/> </div>
             <div id="menu" >
-                <ul>
-                    <li><a ng-click="viewHome();">Home</a></li>
-                    <li><a ng-click="viewAboutMe();">About Me</a></li>
-                </ul>
+                <div id="mLink" class="menuLink">
+                    <ul>
+                        <li><a ng-click="viewHome();">Home</a></li>
+                        <li><a ng-click="viewAboutMe();">About Me</a></li>
+                    </ul>
+                </div>
+                <div id="mIcon" class="menuIcon"><a><i class="icon-list"></i></a></div>
             </div>
-        </header>
+        </div>
         <div id="hoarding">
             <div id="left" >
                 <div id="greet">
