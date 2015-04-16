@@ -122,7 +122,7 @@ h3{
 #menu:hover #mIcon {
     visibility: hidden;
     opacity:0;
-    transform: rotateY(90deg);
+    transform: rotateY(75deg);
 }
 #menu:hover #mLink{
     transform: rotateY(0deg);
