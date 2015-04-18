@@ -52,10 +52,18 @@ apps.controller('workViewControl',['$scope','$rootScope',
     }
 ]);
 
-apps.controller('AboutMeControl',['$scope','$rootScope',
-    function($scope){
+apps.controller('AboutMeControl',['$scope','$rootScope','$location',
+    function($scope,$rootScope,$location){
         $scope.me = me;
+
+        $rootScope.viewAboutMe = function(){
+            $location.path('/viewAboutMe');
+        };
+        $rootScope.viewHome = function(){
+            $location.path('/Home');
+        };
     }
+
 ]);
 
 

@@ -578,13 +578,8 @@ h3{
     }
 
     /*about css*/
-    .degree{
-        font-size: 18px;
-    }
-    .normtxt {
-        font-size: 20px;
-    
-}
+    .degree{font-size: 18px;}
+    .normtxt {font-size: 20px;}
     .boldtxt {
         font-size: 18px;
         font-weight: 600;
@@ -602,14 +597,10 @@ h3{
         padding: 8px 5px;
         margin: 20px;
     }
-    .pad{
-        padding: 10px;
-    }
-
+    .pad{padding: 10px;}
     #menu{
         position:absolute;
         right:0;
-    
         top: 0;
     }
     #mLink{
@@ -637,14 +628,9 @@ h3{
 @media (max-width: 295px ){
     #menu{
          width: 128px;
-
-         /* text-align: right; */
-     
     }
     #menu ul{
         text-align: right;
-
-        /* text-align: right; */
     }
     #mLink{
         background-color: #FEFEFE;
