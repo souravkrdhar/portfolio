@@ -385,9 +385,17 @@ h3{
 
 
 .footer{
-    height:50px;
+    /* height: 43px; */
+    font-size: 20px;
     text-align: center;
+    line-height: 180%;
+    position: relative;
     background-color: #FCFCFC;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    /* padding: 17px 3px; */
+    border-top: 1px solid #AAA;
+    /* box-shadow: 0 0 10px #AAA; */
 }
 /*Work Details page css*/
 .workContainer{
@@ -511,6 +519,47 @@ h3{
 .pad{
     padding: 20px;
 }
+.snet{
+    box-sizing: border-box;
+    padding: 0;
+}
+.round{
+     height:40px;
+     width:40px;
+    text-align: center;
+     line-height: 100%;
+     font-size: 20px;
+     margin: 3px;
+     padding: 9px;
+     box-sizing: border-box;
+     background-color: #FCFCFC;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     box-shadow: 0 0 1px #AAA;
+    cursor: pointer;
+
+
+ }
+.round:hover{
+    box-shadow:0 0 8px #AAA;
+    box-sizing: border-box;
+}
+.inlineBLk{
+    display:inline-block;;
+}
+.facebook{color: #3B5998;}
+.google{color: #C63D2D;}
+.linkedin{color: #0e76a8;}
+
+.facebook:hover{color: #FCFCFC; background-color: #3B5998;}
+.google:hover{color: #FCFCFC; background-color: #C63D2D;}
+.linkedin:hover{color: #FCFCFC; background-color: #0e76a8;}
+
+.facebook:active{box-shadow:0 0 0 #000;}
+.google:active{box-shadow:0 0 0 #000;}
+.linkedin:active{box-shadow:0 0 0 #000;}
+
 @media (max-width: 900px)
 {
     .container{
@@ -550,6 +599,9 @@ h3{
     }
     .skillTag{
         font-size: x-large;
+    }
+    .snet{
+        text-align: center;
     }
 }
 @media (max-width: 500px )
