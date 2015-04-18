@@ -30,7 +30,7 @@ h3{
     padding: 0;
     box-sizing: border-box;
     z-index: -1;
-    min-width: 220px;
+    /* min-width: 220px; */
 }
 #logo{
     float:left;
@@ -43,9 +43,11 @@ h3{
     padding: 8px;
     float:right;
 
+    /* min-width: 192px; */
+    /* width: 153px; */
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
-    perspective: 1000px;
+    perspective: 900px;
 
 
     /* width: 100%; */
@@ -76,13 +78,13 @@ h3{
     text-decoration: underline;
 }
 #mLink{
-    display:inline-block;
-    visibility: hidden;
-    opacity:0;
+    float:left;
+    visibility: visible;
+    opacity:1;
 
-    transform: rotateY(-90deg);
+    transform: rotateY(0deg);
 
-    /* background-color: #FCFCFC; */
+    /* background-color: #2F3A56; */
     -webkit-transform-origin: 100%;
     -moz-transform-origin: 100%;
     -ms-transform-origin: 100%;
@@ -98,14 +100,15 @@ h3{
     z-index: 1;
 }
 #mIcon{
-    display:inline-block;
+    float:right;
     font-size: 25px;
     cursor: pointer;
 
-    visibility: visible;
-    opacity:1;
+    visibility: hidden;
+    opacity:0;
 
-    transform: rotateY(0deg);
+    /* background-color: #2A3A53; */
+    transform: rotateY(90deg);
 
     -webkit-transform-origin: 0%;
     -moz-transform-origin: 0%;
@@ -120,17 +123,7 @@ h3{
 
 
 }
-#menu:hover #mIcon {
-    visibility: hidden;
-    opacity:0;
-    transform: rotateY(75deg);
-}
-#menu:hover #mLink{
-    transform: rotateY(0deg);
-    display:inline-block;
-    opacity:1;
-    visibility: visible;
-}
+
 #hoarding{
     top:0;
     left:0;
@@ -188,7 +181,7 @@ h3{
 .perspect{
     width: 230px;
     height: 296px;
-    margin: 25px;
+    margin: 20px;
     display: inline-table;
     position:relative;
 
@@ -611,5 +604,56 @@ h3{
     }
     .pad{
         padding: 10px;
+    }
+
+    #menu{
+        position:absolute;
+        right:0;
+    
+        top: 0;
+    }
+    #mLink{
+        visibility: hidden;
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    #mIcon{
+        visibility: visible;
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    #menu:hover #mIcon {
+        visibility: hidden;
+        opacity:0;
+        transform: rotateY(75deg);
+    }
+    #menu:hover #mLink{
+        transform: rotateY(0deg);
+        display:inline-block;
+        opacity:1;
+        visibility: visible;
+    }
+}
+@media (max-width: 295px ){
+    #menu{
+         width: 128px;
+
+         /* text-align: right; */
+     
+    }
+    #menu ul{
+        text-align: right;
+
+        /* text-align: right; */
+    }
+    #mLink{
+        background-color: #FEFEFE;
+    }
+    #mIcon{
+        -webkit-transform-origin: 100%;
+        -moz-transform-origin: 100%;
+        -ms-transform-origin: 100%;
+        -o-transform-origin: 100%;
+        transform-origin: 100%;
     }
 }
