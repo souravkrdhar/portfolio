@@ -1,9 +1,9 @@
 var apps = angular.module('portfolio',['ngRoute']);
 
 apps.config(['$routeProvider','$locationProvider',
-    function($routeProvider){
+    function($routeProvider,$locationProvider){
         $routeProvider.
-            when('/Home',
+            when('/',
             {
                 templateUrl: 'partialPages/mainPage.html',
                 controller: 'appControl'
@@ -20,8 +20,10 @@ apps.config(['$routeProvider','$locationProvider',
             })
             .otherwise(
             {
-                redirectTo:'/Home'
+                redirectTo:'/'
             });
+
+
     }]);
 
 apps.controller('appControl', ['$scope','$rootScope','$location',
@@ -35,7 +37,7 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
             $location.path('/viewAboutMe');
         };
         $rootScope.viewHome = function(){
-            $location.path('/Home');
+            $location.path('/');
         };
     }
 ]);
@@ -54,7 +56,7 @@ apps.controller('workViewControl',['$scope','$rootScope','$location',
             $location.path('/viewAboutMe');
         };
         $rootScope.viewHome = function(){
-            $location.path('/Home');
+            $location.path('/');
         };
     }
 ]);
@@ -67,15 +69,12 @@ apps.controller('AboutMeControl',['$scope','$rootScope','$location',
             $location.path('/viewAboutMe');
         };
         $rootScope.viewHome = function(){
-            $location.path('/Home');
+            $location.path('/');
         };
     }
 
 ]);
 
-function openLink(link){
-    window.open(link,'_blank');
-}
 
 
 

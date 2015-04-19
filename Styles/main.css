@@ -258,7 +258,7 @@ h3{
     transform: rotateY(-180deg);
 
     z-index: 1;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .frntContainer{
     width:100%;
@@ -369,6 +369,7 @@ h3{
     right: 3px;
     bottom: 3px;
     letter-spacing: 5px;
+    cursor: pointer;
 }
 .quickViewContainer{
     text-align: right;
