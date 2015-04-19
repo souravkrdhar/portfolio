@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786850fc-fd49-4784-baf0-1966ac2ba50b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partialPages/workDetail.html" afterPath="$PROJECT_DIR$/partialPages/workDetail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="souravkrdhar.github.io.iws" />
@@ -457,7 +456,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429455737350</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Portfolio AboutMe">
+      <created>1429456220812</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1429456220812</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
