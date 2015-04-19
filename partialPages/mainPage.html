@@ -4,7 +4,7 @@
             <div class="cardBGFrnt">
                 <div class="frntContainer ">
                     <div class="frontImage bgImageCover" style="background-image: url('Resources/{{work.title}}/{{work.frontImage}}');"></div>
-                    <div class="logo">
+                    <div class="logo" ng-click="viewWorkDetail($index);">
                         <img ng-src="Resources/{{work.title}}/{{work.logo}}" height="40" width="120">
                     </div>
                     <div class="cardTitle">{{work.title}}</div>
