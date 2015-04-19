@@ -368,6 +368,7 @@ h3{
 
     right: 3px;
     bottom: 3px;
+    letter-spacing: 5px;
 }
 .quickViewContainer{
     text-align: right;
@@ -392,10 +393,10 @@ h3{
     text-align: center;
     line-height: 180%;
     position: relative;
-    background-color: #FCFCFC;
     padding-bottom: 20px;
     padding-top: 10px;
     border-top: 1px solid #AAA;
+    background-color: whitesmoke;
 }
 /*Work Details page css*/
 .workContainer{
@@ -436,6 +437,7 @@ h3{
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
+    border: 1px solid #DDD;
 }
 .workImageIndex{
     font-size: 25px;

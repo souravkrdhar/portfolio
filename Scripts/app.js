@@ -40,8 +40,8 @@ apps.controller('appControl', ['$scope','$rootScope','$location',
     }
 ]);
 
-apps.controller('workViewControl',['$scope','$rootScope',
-    function($scope,$rootScope){
+apps.controller('workViewControl',['$scope','$rootScope','$location',
+    function($scope,$rootScope,$location){
         if($rootScope.clickedOne !== undefined){
             $scope.theWork = workdetails[$rootScope.clickedOne];
             sessionStorage.clickedOne = JSON.stringify($rootScope.clickedOne );
@@ -49,6 +49,13 @@ apps.controller('workViewControl',['$scope','$rootScope',
         else{
             $scope.theWork = workdetails[JSON.parse(sessionStorage.clickedOne || 0)];
         }
+
+        $rootScope.viewAboutMe = function(){
+            $location.path('/viewAboutMe');
+        };
+        $rootScope.viewHome = function(){
+            $location.path('/Home');
+        };
     }
 ]);
 
@@ -65,6 +72,10 @@ apps.controller('AboutMeControl',['$scope','$rootScope','$location',
     }
 
 ]);
+
+function openLink(link){
+    window.open(link,'_blank');
+}
 
 
 

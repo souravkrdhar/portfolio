@@ -3,6 +3,7 @@
     <div class="workCategory"><b>Category :</b> {{theWork.category}}</div>
     <div class="workPlatform"><b>Platform :</b> {{theWork.platform}}</div>
     <div class="workTecnology"><b>Technology :</b> {{theWork.technology}}</div>
+    <div ng-hide="!theWork.link" class="workTecnology"><b>{{theWork.link[0]}} :</b> <a href="{{theWork.link[1]}}" target="_blank">{{theWork.link[1]}}</a></div>
     <div class="workDescription"><b>Description :</b> {{theWork.description}}</div>
     <div class="workScreenshots">::Screenshots::</div>
     <div class="imageContainer" ng-repeat="image in theWork.images">
