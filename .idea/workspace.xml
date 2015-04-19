@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786850fc-fd49-4784-baf0-1966ac2ba50b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="786850fc-fd49-4784-baf0-1966ac2ba50b" name="Default" comment="Portfolio AboutMe">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/workDetails.js" afterPath="$PROJECT_DIR$/Data/workDetails.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -109,8 +107,8 @@
       <file leaf-file-name="workDetails.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/workDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14938489">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.20913884">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -489,7 +487,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429460595812</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Portfolio AboutMe">
+      <created>1429461126683</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1429461126683</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -795,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/workDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14938489">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.20913884">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>

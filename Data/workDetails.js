@@ -5,7 +5,7 @@ var workdetails = [
         frontImage:'1F.jpg',
         backImage:'1B.jpg',
         category:"Portfolio",
-        link:['GitHub','https://github.com/souravkrdhar/souravkrdhar.github.io.git'],
+        //link:['GitHub','https://github.com/souravkrdhar/souravkrdhar.github.io.git'],
         platform:"Web & Mobile",
         desc:'My Portfolio page, you can know more about me here',
         description:'The portfolio page contains details about me and my work details all in a single place.',
